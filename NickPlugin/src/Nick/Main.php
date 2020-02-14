@@ -2,8 +2,6 @@
 
 namespace Nick;
 
-use Nick\commands\NickCommand;
-use Nick\commands\UnNickCommand;
 use pocketmine\event\Listener;
 use pocketmine\event\player\PlayerDropItemEvent;
 use pocketmine\event\player\PlayerInteractEvent;
