@@ -1,0 +1,17 @@
+name: NickUI
+version: 1.0
+api: [3.0.0, 4.0.0]
+main: Nick\Main
+author: r3pt1s
+description: Nick pl
+load: STARTUP
+
+commands:
+  nick:
+    description: "§bNickUI §r§f| §eNicke dich!"
+    usage: "/nick"
+    permission: "nickui.use"
+  unnick:
+    description: "§bNickUI §r§f| §eEntnickt dich!"
+    usage: "/unnick"
+    permission: "nickui.use"
